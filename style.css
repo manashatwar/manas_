@@ -1,0 +1,267 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    background: rgb(23, 3, 84);
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel {
+        background-image: url(https://wallpapers.com/images/hd/plain-background-8who8zlf0ady4c21.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      
+   
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.circle-gradient {
+    width: 240px;
+    height: 240px;
+    background: linear-gradient(90deg, #1500ff 24%, #7dcbff 100%);
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    box-shadow: 0 0 30px #0f001f,0 0 40px #0f001f,
+               0 0 100px #0f001f,0 0 100px #0f001f; 
+}
+.inner-square-dark, .inner-square-light {
+    width: 180px;
+    height: 160px;
+    border-radius: 15px;
+    position: absolute;
+    top: 40px;
+}
+.inner-square-dark {
+    background: #292C31;
+    left: 30px;
+    z-index: 22.4;
+}
+.inner-square-light {
+    background: #464E61;
+    left: 0px;
+    top: 41.5px;
+    z-index: 1;
+}
+.dotted-line {
+    position: absolute;
+    width: 140px;
+    border: 4px #8F96A6 dotted;
+    left: 50px;
+    z-index: 3;
+}
+.dotted-line-top {
+    top: 60px;
+    padding-top: 1%;
+}
+.dotted-line-bottom {
+    top: 175px;
+    padding-top: 1%;
+}
+.mini-rectangle {
+    width: 90px;
+    height: 55px;
+    background: #464E61;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 31px;
+    border-bottom-left-radius: 31px;
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    z-index: 4;
+}
+.small-circle {
+    width: 37px;
+    height: 37px;
+    background: #292C31;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 135px;
+    z-index: 5;
+}
+.red-dot {
+    width: 26px;
+    height: 26px;
+    background: #31cfff;
+    position: absolute;
+    border-radius: 100%;
+    top: 105px;
+    left: 140px;
+    z-index: 6;
+}
+.title {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 260px; /* Adjusted to move title text upward */
+    line-height: 1.2;
+    color: white;
+}
+.title span.orange {
+    color: #1332e7;
+}
+.subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #8F96A6;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+
+.border-line {
+    position: absolute;
+    right: 20px;
+    top: 27px;
+    border: 3px solid white;
+    height: 0;
+    width: 39px;
+    
+}
+
+
+.styled  {
+    width: 345px;
+    height: 60px;
+    border: 0;
+    line-height: 2.5;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background:#1911fc;
+   
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgb(23, 11, 146);
+
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .background {
+    
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fdribbble.com%2Fshots%2F18421761-NFT-Tiger&psig=AOvVaw1xj-lmyOtkrNsNNXRLmgVD&ust=1731243392621000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJiYz7Cmz4kDFQAAAAAdAAAAABAJ'); /* Replace 'your-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+
+  navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+   
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #9bf68f;
+    
+}
+.login-btn {
+    background-color: #1911fc;
+    border: none;
+    padding: 10px 20px;
+   
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 55px;
+    transition: background 0.3s ease;
+    
+}
+
+.nav-links a:hover {
+    background-color: #1911fc;
+    border-radius: 5px;
+}
+
+
+
+.navbar {
+    
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(30px);
+    padding: 15px 30px;
+z-index: 1000; 
+}
+
+.footer {
+    backdrop-filter: blur(2px);
+    padding: 12px;
+    position:fixed ;
+    bottom: 0px; 
+    width: 100%;
+   
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #bdb8b8;
+}
+
+
+.so {
+    display: flex;
+    gap: 15px;
+}
+

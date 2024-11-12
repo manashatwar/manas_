@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://wallpapers.com/images/hd/plain-background-8who8zlf0ady4c21.jpg);
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card-container {
+    position: relative;
+    width: 550px;
+    height: 720px;
+    backdrop-filter: blur(40px);
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(143, 202, 17, 0);
+    margin-top: 48PX;
+}
+
+.greeting {
+    position: absolute;
+    top: 23px;
+    left: 37px;
+}
+
+.greeting-title {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.greeting-subtitle {
+    display: block;
+    color: #a7b4d0;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.profile-image {
+    position: absolute;
+    top: 23px;
+    right: 37px;
+    width: 55px;
+    height: 55px;
+    background: #464E61;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px #e7d7fa,0 0 10px #dccdeb,
+    0 0 100px #ddcaf2,0 0 100px #e8daf7; 
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-background {
+    position: absolute;
+    top: 108px;
+    left: 115px;
+    width: 320px;
+    height: 210px;
+    background: linear-gradient(90deg, #FF4800 0%, #EF6D3A 100%);
+    border-radius: 25px;
+    box-shadow: 20px 20px 30px rgba(135, 1, 1, 0.7); 
+}
+
+.card-logo {
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    width: 51px;
+    height: 39px;
+}
+
+.card-number {
+    position: absolute;
+    top: 207px;
+    left: 140px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-label {
+    position: absolute;
+    top: 253px;
+    left: 140px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card-type {
+    position: absolute;
+    top: 291px;
+    left: 335px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card-type-logo {
+    position: absolute;
+    top: 254px;
+    left: 343px;
+    width: 62px;
+    height: 38px;
+}
+
+.balance-title {
+    position: absolute;
+    top:350px;
+    left: 26px;
+    color: #cfdbf5;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.balance-amount {
+    position: absolute;
+    top: 380px;
+    left: 26px;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.balance-percentage {
+    position: absolute;
+    top: 358px;
+    right: 46px;
+    background: linear-gradient(90deg, #1003ff 0%, #74b0ff 100%);
+    width: 83px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.payment-title {
+    position: absolute;
+    top: 430px;
+    left: 26px;
+    color: #bac8ea;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.account-card {
+    position: absolute;
+    width: 200px;
+    height: 195px;
+    background: linear-gradient(360deg, #292C31 0%, #464950 100%);
+    border-radius: 15px;
+    padding  : 20px;
+    
+}
+#paypall{
+    margin-left: 45px;
+}
+#wallett{
+    margin-left: 48px; 
+}
+.paypal-card {
+    
+    position: absolute;
+    top: 461px;
+    left: 49px;
+    width: 200px;
+    height: 195px;
+    background: linear-gradient(360deg, #292C31 0%, #464950 100%);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.7); 
+    backdrop-filter: blur(10px);   
+}
+
+
+.salary-card {
+    position: absolute;
+    top: 461px;
+    right: 49px;
+    width: 200px;
+    height: 195px;
+    background: linear-gradient(360deg, #292C31 0%, #464950 100%);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.7); 
+    backdrop-filter: blur(10px); 
+    
+
+}
+
+.account-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 50px;
+}
+
+.account-subtitle {
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+    padding-left: 32px;
+}
+
+
+.account-amount {
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 14px;
+    padding-left: 30px;
+}
+.nav-links{
+   
+margin-right: -70px;
+}
+
+navbar {
+    display: flex;
+    justify-content:  space-between ;
+    align-items: center;
+    padding: 15px 30px;
+   
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #9bf68f;
+    padding: 5px;
+}
+
+  
+
+.nav-links li {
+    display: inline-block;
+}
+
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #1911fc;
+    border-radius: 5px;
+}
+.navbar {
+    
+    position: fixed; 
+    top: 01px; 
+    left: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 600px;
+    backdrop-filter: blur(30px);
+}
+.wallet{
+    background-color: #1911fc;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+.login-btn  {
+    width: 90%;
+    height: 40px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background:#313bff;
+    margin-top: 669px;
+  margin-left: 26px;
+   
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .login-btn:hover {
+    background-color: rgb(23, 11, 146);
+
+  }
+  
+  .login-btn:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
